@@ -13,14 +13,7 @@
  * Represents the mobile device, and provides properties for inspecting the
  * model, version, UUID of the phone, etc.
  */
-(function() {
-    /**
-     * Check that navigator.device has not been initialized.
-     */
-    if (typeof navigator.device !== "undefined") {
-        return;
-    }
-    
+(function() {    
     /**
      * @constructor
      */
